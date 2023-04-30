@@ -19,7 +19,7 @@ e = 'qwertyuiopassdfghjklzxcvbnm1234567890'
 
 isclaim = ["off"]
 isauto = ["off"]
-    f = f.read().split()
+   
 
 que = Queue()
 
