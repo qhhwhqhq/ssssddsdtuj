@@ -19,9 +19,9 @@ e = 'qwertyuiopassdfghjklzxcvbnm1234567890'
 
 isclaim = ["off"]
 isauto = ["off"]
-   
-
-que = Queue()
+with open("banned.txt", "r") as f:
+    f = f.read().split()
+    banned.append(f)que = Queue()
 
 
 def check_user(username):
